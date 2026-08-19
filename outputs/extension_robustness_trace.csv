@@ -1,0 +1,5 @@
+corrupted_image,intensity_shift,orig_otsu_n,corr_otsu_n,otsu_mask_iou_vs_original,orig_unet_n,corr_unet_n,unet_mask_iou_vs_original,corr_unet_fraction_foreground
+test_000_blur,-0.0021,8,7,0.509,8,7,0.479,0.049
+test_000_lowcontrast,0.3773,8,8,0.966,8,1,0.024,1.0
+test_004_blur,-0.0029,42,20,0.68,42,9,0.484,0.449
+test_004_lowcontrast,0.2581,42,42,0.995,42,1,0.218,1.0

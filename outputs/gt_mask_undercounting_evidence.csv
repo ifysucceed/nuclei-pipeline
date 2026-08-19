@@ -1,0 +1,13 @@
+image_id,gt_true_n_instances,gt_mask_connected_components
+test_000,8,8
+test_001,19,14
+test_002,31,26
+test_003,21,19
+test_004,75,44
+test_005,49,17
+test_006,8,8
+test_007,30,23
+test_008,28,23
+test_009,24,21
+test_010,78,39
+test_011,30,20

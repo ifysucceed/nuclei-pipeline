@@ -1,0 +1,4 @@
+loss,final_val_dice,final_val_iou
+BCE,0.9913,0.9828
+Dice,0.979,0.9589
+BCE+Dice,0.9828,0.9662

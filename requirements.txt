@@ -1,0 +1,32 @@
+# Core pipeline dependencies (Tasks 1-4, Extensions A/B)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+Pillow>=10.0
+scikit-image>=0.22
+
+# U-Net / Task 3 / Extension A (loss ablation)
+torch>=2.1
+
+# Local LLM client (Task 1, 2, 4) -- requires Ollama installed separately.
+# See README.md for setup instructions, including the known llama3.2-vision
+# compatibility issue on recent Ollama versions and the working fix.
+ollama>=0.3
+
+# Notebook execution
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.25
+nbformat>=5.9
+
+
+#    Extension C (foundation model, optional)
+# torchvision is required by MedSAM's segment_anything package but is NOT
+# imported directly by anything in this project -- it must match your
+# existing torch version exactly (pin torch to your installed version when
+# installing, e.g. `pip install "torch==2.13.0+cpu" torchvision`, so pip
+# resolves a compatible torchvision without touching your working torch
+# install). segment-anything itself is NOT installed from PyPI: it comes
+# from cloning and `pip install -e .` inside bowang-lab/MedSAM. See
+# README.md "Enabling the foundation-model extension" for full steps.
+# torchvision

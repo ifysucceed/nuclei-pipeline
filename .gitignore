@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Third-party libraries installed for extensions (not part of this submission)
+# MedSAM was cloned and pip-installed locally to run Extension C (foundation model
+# comparison). It is its own separate Git repository (has its own .git folder) and
+# contains a 357MB checkpoint that GitHub will reject outright (>100MB hard limit)
+# see README.md "Enabling the foundation-model extension" for how a marker can set
+# this up themselves. Only this project's own small, real results from running it
+# (outputs/medsam_vs_unet_comparison.csv, outputs/figures/extension_medsam_comparison.png)
+# are committed.
+MedSAM/
+
+# Large / regenerable artefacts
+# Trained model weights (outputs/unet_bcedice.pt, ~7.5 MB) and all other
+# results in outputs/ ARE committed to this repository on purpose, so the
+# marker can see real results without re-running the notebook. If you retrain
+# locally and want git to ignore your new local copies instead, uncomment:
+# outputs/unet_bcedice.pt
+
+# Smoke-test / scratch notebooks created while developing the pipeline
+*_smoketest*.ipynb
+nbconvert_log.txt
+smoketest_log.txt
+train_log.txt
+retrain_log.txt
+ablation_log.txt
+
+# Logs / temp
+*.log
+.pytest_cache/

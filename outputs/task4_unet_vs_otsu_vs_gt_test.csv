@@ -1,0 +1,13 @@
+image_id,unet_pipeline_n_objects,gt_n_objects,density,abs_error,otsu_n_objects,otsu_abs_error
+test_000,8,8,sparse,0,8,0
+test_001,14,19,normal,5,14,5
+test_002,26,31,normal,5,26,5
+test_003,19,21,normal,2,19,2
+test_004,42,75,dense,33,42,33
+test_005,15,49,clustered,34,15,34
+test_006,8,8,sparse,0,8,0
+test_007,23,30,normal,7,23,7
+test_008,23,28,normal,5,23,5
+test_009,21,24,normal,3,21,3
+test_010,36,78,dense,42,36,42
+test_011,19,30,clustered,11,19,11

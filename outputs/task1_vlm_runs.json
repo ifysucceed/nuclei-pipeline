@@ -1,0 +1,35 @@
+{
+  "naive_response": "The image appears to be a microscopic view of cells, likely under a fluorescence microscope. The blue dots are likely fluorescently labeled cells or cellular components, such as nuclei or mitochondria, that have been stained with a fluorescent dye. The image suggests that the cells are being studied for their morphology, structure, or function, possibly in the context of a biological or medical research project.",
+  "engineered_runs": [
+    {
+      "run": 1,
+      "raw_response": "{ \"modality\": \"uncertain\", \"tissue_type\": \"uncertain\", \"notable_features\": \"The image is blurry and lacks clear details.\", \"image_quality\": \"poor\" }",
+      "parsed_json": {
+        "modality": "uncertain",
+        "tissue_type": "uncertain",
+        "notable_features": "The image is blurry and lacks clear details.",
+        "image_quality": "poor"
+      }
+    },
+    {
+      "run": 2,
+      "raw_response": "{ \"modality\": \"fluorescence microscopy\", \"tissue_type\": \"cells\", \"notable_features\": \"Bright blue dots scattered throughout the image\", \"image_quality\": \"good\" }",
+      "parsed_json": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cells",
+        "notable_features": "Bright blue dots scattered throughout the image",
+        "image_quality": "good"
+      }
+    },
+    {
+      "run": 3,
+      "raw_response": "{\"modality\": \"uncertain\", \"tissue_type\": \"uncertain\", \"notable_features\": \"The image shows blue spots of varying sizes scattered across a black background.\", \"image_quality\": \"good\"}",
+      "parsed_json": {
+        "modality": "uncertain",
+        "tissue_type": "uncertain",
+        "notable_features": "The image shows blue spots of varying sizes scattered across a black background.",
+        "image_quality": "good"
+      }
+    }
+  ]
+}

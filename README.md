@@ -16,7 +16,7 @@ ablation, a corruption-robustness trace, and a foundation-model (MedSAM) compari
 ```
 .
 ├── pipeline_utils.py               # All reusable pipeline functions (documented)
-├── nuclei_pipeline.ipynb           # Main notebook: Tasks 1-4 + extensions, run end-to-end
+├── nuclei_pipeline.ipynb           # Main notebook: Tasks 1-4 + extensions for credit, run end-to-end
 ├── requirements.txt                # Python dependencies
 ├── .gitignore
 ├── LICENSE
